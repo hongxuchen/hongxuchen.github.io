@@ -1,0 +1,148 @@
+name: Hongxu Chen (陈泓旭)
+email: hongxu_chen@foxmail.com
+phone: '+86 13027944806'
+website: hongxuchen.github.io
+github: hongxuchen
+
+sections:
+
+  - heading: Education
+    subsections:
+      - heading:
+          label: Nanyang Technological University - Singapore, Singapore
+          startdate: 2015.08
+          enddate: 2019.07
+        degrees:
+          - 'Ph.D., Major in Cybersecurity, Supervisor: Prof. Yang Liu'
+          - 'Thesis: Securing Software Systems via Fuzz Testing and Verification'
+        points:
+          - 'Fuzz Testing: Grey-box fuzzing on C/C++ programs with the help of program analysis'
+          - 'Formal Verification: Permission-dependent type system for secure information flow analysis.'
+      - heading:
+          label: Shanghai Jiaotong University - Shanghai, China
+          startdate: 2011.09
+          enddate: 2014.03
+        degrees:
+          - 'Master, Major in Program Analysis, Supervisor: Prof. Jianjun Zhao'
+          - 'Thesis: Program Slicing Enhanced Symbolic Execution'
+      - heading:
+          label: Nanjing University of Science and Technology - Nanjing, China
+          startdate: 2007.09
+          enddate: 2011.07
+
+  - heading: Working Experiences
+    subsections:
+      - heading:
+          label: Senior Researcher @ Huawei Technologies Co., Ltd. - Shenzhen, China
+          startdate: 2021.07
+          enddate: Present
+        points:
+          - Code dependency analysis for C/C++, Java, Python
+          - Software Architecture conformance checking
+          - Software quality analysis
+      - heading:
+          label:  Senior Research @ Huawei International Pte, Ltd. - Singapore, Singapore
+          startdate: 2020.10
+          enddate: 2021.06
+        points:
+          - Code dependency analysis for C/C++, Java
+      - heading:
+          label: Research Fellow @ Nanyang Technology University - Singapore, Singapore
+          startdate: 2020.01
+          enddate: 2020.09
+        points:
+          - I lead the architecture design of a fuzzing service which provides a general-purpose interface for different
+            testing scenarios, such as embedded systems, the automotive-relevant microcontrollers, stateful protocols, etc.
+            I am also involved in a data-based reverse engineering research to help decompose the functional components
+            of a given project.
+      - heading:
+          label: Research Associate @ Nanyang Technological University - Singapore, Singapore
+          startdate: 2019.08
+          enddate: 2019.12
+        points:
+          - I maintain the fuzzing framework FOT. Meanwhile, I am also involved in a high-performance cross-CPU
+            binary fuzzing framework BiFF, as well as a fuzzing technique called MUZZ that aims to boost fuzz testing
+            on multithreaded programs.
+      - heading:
+          label: Research Intern @ Scantist Pte. Ltd. - Singapore, Singpaore
+          startdate: 2018.09
+          enddate: 2019.05
+        points:
+          - I co-designed and built the prototype of a cross-CPU grey-box fuzzer for binaries.
+      - heading:
+          label: Research Associate @ Nanyang Technological University - Singapore, Singapore
+          startdate: 2014.05
+          enddate: 2015.08
+        points:
+          - I focused on LLVM based data flow analysis which aims to improve the dynamic fuzzing effectiveness with
+            the aid of static analysis.
+      - heading:
+          label: Research Intern @ Microsoft Research Asia - Beijing, China
+          startdate: 2013.02
+          enddate: 2013.11
+        points:
+          - I focused on improving the white-box fuzzing technique on patching programs with the help of static analysis;
+            I implemented a static analysis tool that can slice the underlying program for subsequent white-box testing.
+
+
+  - heading: Awards
+    subsections:
+      - heading:
+          label: 1st Award in Prototype Competition (freestyle) - Harbin, China (2019.11)
+        points:
+          - The 18th National Software Application Conference (NASAC 2019)
+      - heading:
+          label: 1st Award in Prototype Competition (fixed topic) - Hangzhou, China (2017.11)
+        points:
+          - The 16th National Software Application Conference (NASAC 2017)
+      - heading:
+          label: NTU Research Scholarship - Singapore, Singapore
+        points:
+          - Nanyang Technological University
+
+  - heading: Professional Skills
+    subsections:
+      - heading:
+        label: Proficient
+        points:
+          - Static Program Analysis, Grey-box Fuzzing, Symbolic Execution, Binary Analysis, Java,
+            Python, Rust, Scala
+      - heading:
+        label: Familiar
+        points:
+          - Program Language Theory, Compiler Techniques, Linux System Programming, Formal Verification, LLVM/GCC, Bash, JVM, C/C++
+      - heading:
+        label: Knowledgeable
+        points:
+          - Web3, Distributed Systems, OCaml, Haskell, Coq, Isabelle
+
+  - heading: Teaching Experience
+    subsections:
+      - heading:
+          label: Object-Oriented Programming
+        points:
+          - Autumn Semester 2018, NTU Lab supervision for course "CE/CZ2002 Object Oriented Design and Programming"
+      - heading:
+          label: Software Engineering
+        points:
+          - Spring Semester 2018, NTU Lab supervision for course "CE/CZ2006 Software Engineering"
+      - heading:
+          label: System Design and Programming
+        points:
+          - Autumn Semester 2017, NTU Lab supervision for course "CE/CZ3003 Software Systems Analysis and Design"
+      - heading:
+          label: Computer Security
+        points:
+          - Autumn Semester 2017, NTU Course design for "CE/CZ4062 Computer Security"
+      - heading:
+          label: Computer Security
+        points:
+          - Spring Semester 2017, NTU Lab supervision for course "CE/CZ4024 Cryptography and Network Security"
+      - heading:
+          label: Algorithms
+        points:
+          - Autumn Semester 2016, NTU Lab supervision for course "CE/CZ2001 Algorithms"
+      - heading:
+          label: Compiler Techniques
+        points:
+          - Spring Semester 2016, NTU Lab supervision for course "CE/CZ3007 Compiler Techniques"

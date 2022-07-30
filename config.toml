@@ -1,0 +1,4 @@
+title = "Hongxu's Resume"
+baseURL = "hongxuchen.github.io"
+theme = "resume"
+disableKinds = ["taxonomy", "term"]
