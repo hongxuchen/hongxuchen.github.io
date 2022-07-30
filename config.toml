@@ -1,4 +1,4 @@
 title = "Hongxu's Resume"
-baseURL = "hongxuchen.github.io"
-theme = "resume"
+baseURL = "https://hongxuchen.github.io"
 disableKinds = ["taxonomy", "term"]
+staticDir = ["static"]
