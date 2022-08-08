@@ -8,8 +8,11 @@
         <div class="heading-line">
           <h3>{{ .label }}</h3>
           <h3>
-            {{ .startdate }} -
-            {{ if .enddate }}{{ .enddate }}{{ else }}{{ end }}
+            {{ if (and .startdate .enddate) }}
+              {{ .startdate }} - {{ .enddate }}
+            {{ else if .startdate }}
+              {{ .startdate }} -  Present
+            {{ end }}
           </h3>
         </div>
       {{ end }}

@@ -8,6 +8,8 @@
   {{ $style := resources.Get "main.scss" | toCSS }}
   <link rel="stylesheet" href="{{ trim $style.RelPermalink "/" }}" />
 
+  <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
